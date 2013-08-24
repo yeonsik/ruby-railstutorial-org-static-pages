@@ -24,4 +24,4 @@ def secure_token
   end
 end
 
-StaticPages::Application.config.secret_key_base = 'de6c9deed10a92bd5dc68f5f0e97f6477ff98d95a2af7eccb8cadb1f40d9ac6d22b677721a7d3b1bded49261cc29b65ca24cd324ca28357bfe8966293cbb89e3'
+StaticPages::Application.config.secret_key_base = secure_token
